@@ -45,6 +45,7 @@ router.beforeEach((to) => {
   // console.log(to) // route对象
 
   if (to.path === '/main') {
+    console.log(firstMenu)
     return firstMenu.url
   }
 })
